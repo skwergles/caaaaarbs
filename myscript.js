@@ -33,12 +33,20 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bAbraham Lincoln\b/g, "Cade Maw");
-	v = v.replace(/\babraham lincoln\b/g, "cade maw");
-	v = v.replace(/\bgeorge washington\b/g, "cade maw");
-	v = v.replace(/\bGeorge Washington\b/g, "Cade Maw");
+	v = v.replace(/\bTrump\b/g, "Maw");
+	v = v.replace(/\btrump\b/g, "maw");
+	v = v.replace(/\bDonald J Trump\b/g, "Cade J Maw");
+	v = v.replace(/\bDonald John Trump\b/g, "Cade Jack Maw");
 	v = v.replace(/\bDonald Trump\b/g, "Cade Maw");
 	v = v.replace(/\bdonald trump\b/g, "cade maw");
+	v = v.replace(/\bdonald john trump\b/g, "cade jack maw");
+	v = v.replace(/\bdonald j trump\b/g, "cade j maw");
+	v = v.replace(/\bdonaldjtrump\b/g, "cadejmaw");
+	v = v.replace(/\bDonaldJTrump\b/g, "CadeJMaw");
+	v = v.replace(/\bDonald J. Trump\b/g, "Cade J. Maw");
+	v = v.replace(/\bdonald j. trump\b/g, "cade j. maw");
+	v = v.replace(/\brealdonaldtrump\b/g, "realcademaw");
+	v = v.replace(/\bRealDonaldTrump\b/g, "RealCadeMaw");
 	
 	textNode.nodeValue = v;
 }
