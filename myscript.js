@@ -33,12 +33,12 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bpasta\b/g, "caaaaarbs");
-	v = v.replace(/\bbread\b/g, "caaaaarbs");
-	v = v.replace(/\bBread\b/g, "Caaaaarbs");
-	v = v.replace(/\bScones\b/g, "Caaaaarbs");
-	v = v.replace(/\bBuns\b/g, "Caaaaarbs");
-	v = v.replace(/\bspaghetti\b/g, "caaaaarbs");
+	v = v.replace(/\bAbraham Lincoln\b/g, "Cade Maw");
+	v = v.replace(/\babraham lincoln\b/g, "cade maw");
+	v = v.replace(/\bgeorge washington\b/g, "cade maw");
+	v = v.replace(/\bGeorge Washington\b/g, "Cade Maw");
+	v = v.replace(/\bDonald Trump\b/g, "Cade Maw");
+	v = v.replace(/\bdonald trump\b/g, "cade maw");
 	
 	textNode.nodeValue = v;
 }
