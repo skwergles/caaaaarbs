@@ -47,6 +47,8 @@ function handleText(textNode)
 	v = v.replace(/\bdonald j. trump\b/g, "cade j. maw");
 	v = v.replace(/\brealdonaldtrump\b/g, "realcademaw");
 	v = v.replace(/\bRealDonaldTrump\b/g, "RealCadeMaw");
+	v = v.replace(/\bDonald\b/g, "Cade");
+	v = v.replace(/\bdonald\b/g, "cade");
 	
 	textNode.nodeValue = v;
 }
