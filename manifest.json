@@ -3,9 +3,9 @@
 	"name": "cade",
 	"version": "1.0",
 	"description": "name changer thing",
-	"icons": { "16": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true",
-           "48": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true",
-          "128": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true" },
+	"icons": { "16": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.png?raw=true",
+           "48": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.png?raw=true",
+          "128": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.png?raw=true" },
 	"content_scripts": 
 	[
 		{
