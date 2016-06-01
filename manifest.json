@@ -3,9 +3,9 @@
 	"name": "cade",
 	"version": "1.0",
 	"description": "name changer thing",
-	"icons": { "16": "http://cdn.popdust.com/wp-content/uploads/2014/09/donald-trump-hair-photos-mystery-transplant-combover_2014-09-14_21-59-27-48x48.jpg?w=48",
-           "48": "http://cdn.popdust.com/wp-content/uploads/2014/09/donald-trump-hair-photos-mystery-transplant-combover_2014-09-14_21-59-27-48x48.jpg?w=48",
-          "128": "http://67.media.tumblr.com/avatar_7884200abbed_128.png" },
+	"icons": { "16": "images/IMG_1263.png",
+           "48": "images/IMG_1263.png",
+          "128": "images/IMG_1263.png" },
 	"content_scripts": 
 	[
 		{
