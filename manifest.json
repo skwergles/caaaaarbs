@@ -3,9 +3,9 @@
 	"name": "cade",
 	"version": "1.0",
 	"description": "name changer thing",
-	"icons": { "16": "images/carbs16.png",
-           "48": "images/carbs48.png",
-          "128": "images/carbs128.png" },
+	"icons": { "16": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true",
+           "48": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true",
+          "128": "https://github.com/skwergles/cade/blob/master/images/IMG_1263.JPG?raw=true" },
 	"content_scripts": 
 	[
 		{
