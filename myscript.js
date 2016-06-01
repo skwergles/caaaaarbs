@@ -53,6 +53,8 @@ function handleText(textNode)
 	v = v.replace(/\b@RealDonaldTrump\b/g, "@RealCadeMaw");
 	v = v.replace(/\b@realDonaldTrump\b/g, "@realCadeMaw");
 	v = v.replace(/\b(@realDonaldTrump)\b/g, "(@realCadeMaw)");
+	v = v.replace(/\b#Trump2016\b/g, "#Maw2016");
+	v = v.replace(/\b#trump2016\b/g, "#maw2016");
 	
 	textNode.nodeValue = v;
 }
