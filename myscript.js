@@ -56,5 +56,6 @@ function handleText(textNode)
 	v = v.replace(/\b#Trump2016\b/g, "#Maw2016");
 	v = v.replace(/\b#trump2016\b/g, "#maw2016");
 	v = v.replace(/\bDonald John Trump\b/g, "Cade Jack Maw");
+	
 	textNode.nodeValue = v;
 }
