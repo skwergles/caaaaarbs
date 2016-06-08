@@ -2,12 +2,12 @@
 	"manifest_version": 2,
 	"name": "cade",
 	"version": "1.0",
-	"description": "name changer thing",
-		"browser_action": {
+	"description": "name changer thing dood",
+	"browser_action": {
 			"default_icon": "images/carbs16.png",
 			"popup": "popup.html"
-		}
-	}
+	},
+	
 	"content_scripts": 
 	[
 		{
