@@ -3,7 +3,10 @@
 	"name": "cade",
 	"version": "1.0",
 	"description": "name changer thing dood",
-	
+	"icons": { "16": "images/carbs16.png",
+           "48": "images/carbs48.png",
+          "128": "images/carbs128.png" },
+
 	
 	"content_scripts": 
 	[
