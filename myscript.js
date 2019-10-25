@@ -35,7 +35,6 @@ function handleText(textNode)
 
 	v = v.replace(/\bTrump\b/g, "Maw");
 	v = v.replace(/\btrump\b/g, "maw");
-	v = v.replace(/\bDonald\b/g, "Caden");
 	v = v.replace(/\bDonald J Trump\b/g, "Caden J Maw");
 	v = v.replace(/\bDonald John Trump\b/g, "Caden Jack Maw");
 	v = v.replace(/\bDonald Trump\b/g, "Cade Maw");
@@ -45,12 +44,12 @@ function handleText(textNode)
 	v = v.replace(/\bdonaldjtrump\b/g, "cadenjmaw");
 	v = v.replace(/\bDonaldJTrump\b/g, "CadenJMaw");
 	v = v.replace(/\bDonald J. Trump\b/g, "Caden J. Maw");
-	v = v.replace(/\bdonald j. trump\b/g, "caden j. maw");
+	v = v.replace(/\bdonald j. Trump\b/g, "caden j. maw");
 	v = v.replace(/\brealdonaldtrump\b/g, "realcadenmaw");
 	v = v.replace(/\bRealDonaldTrump\b/g, "Real Caden Maw");
-	v = v.replace(/\b@realdonaldtrump\b/g, "@realcadenmaw");
-	v = v.replace(/\b@RealDonaldTrump\b/g, "@RealCadenMaw");
-	v = v.replace(/\b@realDonaldTrump\b/g, "@realCadenMaw");
+	v = v.replace(/\b@realcadenmaw\b/g, "@realcadenmaw");
+	v = v.replace(/\b@Real Caden Maw\b/g, "@RealCadenMaw");
+	v = v.replace(/\b@realCadenMaw\b/g, "@realCadenMaw");
 	v = v.replace(/\b(@realDonaldTrump)\b/g, "(@realCadenMaw)");
 	v = v.replace(/\b#Trump2020\b/g, "#Maw2020");
 	v = v.replace(/\b#trump2020\b/g, "#maw2020");
