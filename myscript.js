@@ -35,6 +35,7 @@ function handleText(textNode)
 
 	v = v.replace(/\bTrump\b/g, "Maw");
 	v = v.replace(/\btrump\b/g, "maw");
+	v = v.replace(/\bDonald\b/g, "Caden");
 	v = v.replace(/\bDonald J Trump\b/g, "Caden J Maw");
 	v = v.replace(/\bDonald John Trump\b/g, "Caden Jack Maw");
 	v = v.replace(/\bDonald Trump\b/g, "Cade Maw");
